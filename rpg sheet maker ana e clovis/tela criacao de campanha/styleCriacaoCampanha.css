@@ -1,0 +1,881 @@
+.criao-de-campanha {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.criao-de-campanha .div {
+  background-image: url(./img/fundo_criacao.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 1440px;
+  height: 810px;
+  position: relative;
+}
+
+.criao-de-campanha .campo-classe {
+  position: absolute;
+  width: 264px;
+  height: 34px;
+  top: 68px;
+  left: 14px;
+}
+
+.criao-de-campanha .overlap-group {
+  position: relative;
+  width: 262px;
+  height: 34px;
+  background-color: #130c2cd9;
+  border-radius: 18.75px;
+  border: 2.25px solid;
+  border-color: #ffffff;
+}
+
+.criao-de-campanha .text-wrapper {
+  position: absolute;
+  width: 170px;
+  height: 27px;
+  top: 2px;
+  left: 18px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-campanha .overlap-wrapper {
+  position: absolute;
+  width: 264px;
+  height: 34px;
+  top: 68px;
+  left: 322px;
+}
+
+.criao-de-campanha .text-wrapper-2 {
+  position: absolute;
+  width: 76px;
+  height: 27px;
+  top: 2px;
+  left: 18px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-campanha .overlap-group-wrapper {
+  position: absolute;
+  width: 185px;
+  height: 28px;
+  top: 128px;
+  left: 211px;
+}
+
+.criao-de-campanha .overlap {
+  position: relative;
+  width: 183px;
+  height: 28px;
+  background-color: #130c2cd9;
+  border-radius: 18.75px;
+  border: 2.25px solid;
+  border-color: #ffffff;
+}
+
+.criao-de-campanha .text-wrapper-3 {
+  position: absolute;
+  height: 27px;
+  top: -1px;
+  left: 39px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-campanha .div-wrapper {
+  position: absolute;
+  width: 185px;
+  height: 28px;
+  top: 612px;
+  left: 211px;
+}
+
+.criao-de-campanha .text-wrapper-4 {
+  position: absolute;
+  height: 27px;
+  top: -1px;
+  left: 65px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-campanha .botao-adicionar-npc {
+  position: absolute;
+  width: 164px;
+  height: 34px;
+  top: 756px;
+  left: 33px;
+}
+
+.criao-de-campanha .botao-finalizar {
+  height: 34px;
+}
+
+.criao-de-campanha .overlap-group-2 {
+  position: relative;
+  width: 164px;
+  height: 45px;
+  top: -1px;
+}
+
+.criao-de-campanha .fundo-finalizar {
+  position: absolute;
+  width: 164px;
+  height: 44px;
+  top: 1px;
+  left: 0;
+  background-color: #a8a8a8;
+  border-radius: 18.75px;
+}
+
+.criao-de-campanha .fundo-finalizar-2 {
+  position: absolute;
+  width: 164px;
+  height: 34px;
+  top: 1px;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 18.75px;
+}
+
+.criao-de-campanha .text-wrapper-5 {
+  position: absolute;
+  width: 93px;
+  height: 33px;
+  top: 0;
+  left: 36px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-campanha .botao-finalizar-wrapper {
+  position: absolute;
+  width: 164px;
+  height: 34px;
+  top: 756px;
+  left: 413px;
+}
+
+.criao-de-campanha .descricao-e {
+  position: absolute;
+  width: 680px;
+  height: 271px;
+  top: 68px;
+  left: 655px;
+}
+
+.criao-de-campanha .overlap-2 {
+  position: relative;
+  width: 640px;
+  height: 271px;
+  background-image: url(./img/fundo-descricao.svg);
+  background-size: 100% 100%;
+}
+
+.criao-de-campanha .text-wrapper-6 {
+  position: absolute;
+  height: 27px;
+  top: 25px;
+  left: 25px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-campanha .divisor-direita {
+  left: 426px;
+  position: absolute;
+  width: 158px;
+  height: 4px;
+  top: 622px;
+}
+
+.criao-de-campanha .divisor-esquerda {
+  left: 11px;
+  position: absolute;
+  width: 158px;
+  height: 4px;
+  top: 622px;
+}
+
+.criao-de-campanha .jogador {
+  top: 170px;
+  background-image: url(./img/rectangle-42-1.svg);
+  position: absolute;
+  width: 573px;
+  height: 88px;
+  left: 11px;
+  background-size: 100% 100%;
+}
+
+.criao-de-campanha .campo-xp {
+  position: absolute;
+  width: 58px;
+  height: 17px;
+  top: 56px;
+  left: 504px;
+}
+
+.criao-de-campanha .overlap-group-3 {
+  position: relative;
+  width: 56px;
+  height: 17px;
+}
+
+.criao-de-campanha .text-wrapper-7 {
+  position: absolute;
+  width: 19px;
+  height: 17px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.criao-de-campanha .line {
+  width: 56px;
+  position: absolute;
+  height: 2px;
+  top: 15px;
+  left: 0;
+}
+
+.criao-de-campanha .campo-level {
+  position: absolute;
+  width: 98px;
+  height: 17px;
+  top: 56px;
+  left: 385px;
+}
+
+.criao-de-campanha .overlap-3 {
+  position: relative;
+  width: 96px;
+  height: 17px;
+}
+
+.criao-de-campanha .text-wrapper-8 {
+  position: absolute;
+  width: 38px;
+  height: 17px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.criao-de-campanha .img {
+  width: 96px;
+  position: absolute;
+  height: 2px;
+  top: 15px;
+  left: 0;
+}
+
+.criao-de-campanha .campo-raca {
+  position: absolute;
+  width: 98px;
+  height: 17px;
+  top: 56px;
+  left: 263px;
+}
+
+.criao-de-campanha .text-wrapper-9 {
+  position: absolute;
+  width: 39px;
+  height: 17px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.criao-de-campanha .foto {
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  top: 12px;
+  left: 9px;
+  background-color: #ffffff;
+  border-radius: 30.59px;
+  transform: rotate(-0.66deg);
+}
+
+.criao-de-campanha .campo-nome {
+  position: absolute;
+  width: 157px;
+  height: 17px;
+  top: 16px;
+  left: 80px;
+}
+
+.criao-de-campanha .overlap-4 {
+  position: relative;
+  width: 155px;
+  height: 17px;
+}
+
+.criao-de-campanha .line-2 {
+  width: 155px;
+  position: absolute;
+  height: 2px;
+  top: 15px;
+  left: 0;
+}
+
+.criao-de-campanha .text-wrapper-10 {
+  position: absolute;
+  width: 45px;
+  height: 17px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.criao-de-campanha .campo-personagem {
+  position: absolute;
+  width: 157px;
+  height: 18px;
+  top: 55px;
+  left: 80px;
+}
+
+.criao-de-campanha .overlap-5 {
+  position: relative;
+  width: 155px;
+  height: 18px;
+}
+
+.criao-de-campanha .line-3 {
+  position: absolute;
+  width: 155px;
+  height: 2px;
+  top: 16px;
+  left: 0;
+}
+
+.criao-de-campanha .text-wrapper-11 {
+  position: absolute;
+  width: 96px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.criao-de-campanha .jogador-2 {
+  top: 276px;
+  background-image: url(./img/rectangle-42.svg);
+  position: absolute;
+  width: 573px;
+  height: 88px;
+  left: 11px;
+  background-size: 100% 100%;
+}
+
+.criao-de-campanha .botao-adicionar-wrapper {
+  position: absolute;
+  width: 573px;
+  height: 88px;
+  top: 382px;
+  left: 11px;
+  background-image: url(./img/fundo-jogador-3.svg);
+  background-size: 100% 100%;
+}
+
+.criao-de-campanha .overlap-wrapper-2 {
+  position: relative;
+  width: 62px;
+  height: 62px;
+  top: 14px;
+  left: 260px;
+}
+
+.criao-de-campanha .overlap-6 {
+  position: relative;
+  height: 62px;
+  border-radius: 30.75px;
+}
+
+.criao-de-campanha .div-2 {
+  position: absolute;
+  width: 30px;
+  height: 6px;
+  top: 27px;
+  left: 16px;
+  background-color: #ffffff;
+  border-radius: 18.75px;
+}
+
+.criao-de-campanha .div-3 {
+  position: absolute;
+  width: 30px;
+  height: 6px;
+  top: 28px;
+  left: 16px;
+  background-color: #ffffff;
+  border-radius: 18.75px;
+  transform: rotate(-90deg);
+}
+
+.criao-de-campanha .div-4 {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 0;
+  left: 0;
+  border-radius: 30.75px;
+  border: 2.25px solid;
+  border-color: #ffffff;
+}
+.criao-de-campanha .div-5 {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 0;
+  left: -20px;
+  border-radius: 30.75px;
+  border: 2.25px solid;
+  border-color: #ffffff;
+}
+
+.criao-de-campanha .adicionar-jogador-wrapper {
+  position: absolute;
+  width: 573px;
+  height: 88px;
+  top: 489px;
+  left: 11px;
+  background-image: url(./img/fundo-jogador-4.svg);
+  background-size: 100% 100%;
+}
+
+.criao-de-campanha .foto-mapa {
+  width: 200px;
+  top: 560px;
+  left: 1100px;
+  background-image: url(./img/rectangle-40.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  height: 161px;
+}
+
+.criao-de-campanha .group {
+  position: relative;
+  width: 62px;
+  height: 62px;
+  top: 50px;
+  left: 91px;
+}
+
+.criao-de-campanha .group-2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 16px;
+  left: 16px;
+}
+
+.criao-de-campanha .overlap-group-4 {
+  position: relative;
+  height: 30px;
+  left: -20px;
+}
+
+.criao-de-campanha .rectangle-wrapper {
+  position: absolute;
+  width: 30px;
+  height: 6px;
+  top: 12px;
+  left: 0;
+}
+
+.criao-de-campanha .rectangle {
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 18.75px;
+}
+
+.criao-de-campanha .group-3 {
+  position: absolute;
+  width: 6px;
+  height: 30px;
+  top: 0;
+  left: 12px;
+}
+
+.criao-de-campanha .rectangle-2 {
+  position: relative;
+  width: 30px;
+  height: 6px;
+  top: 12px;
+  left: -12px;
+  background-color: #ffffff;
+  border-radius: 18.75px;
+  transform: rotate(-90deg);
+}
+
+.criao-de-campanha .group-wrapper {
+  width: 200px;
+  top: 560px;
+  left: 880px;
+  background-image: url(./img/rectangle-39.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  height: 161px;
+}
+
+.criao-de-campanha .foto-mapa-2 {
+  width: 200px;
+  top: 560px;
+  left: 655px;
+  background-image: url(./img/rectangle-40.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  height: 161px;
+}
+
+.criao-de-campanha .foto-mapa-3 {
+  width: 200px;
+  top: 364px;
+  left: 1100px;
+  background-image: url(./img/rectangle-38.svg);
+  background-size: 100% 100%;
+  position: absolute;
+  height: 161px;
+}
+
+.criao-de-campanha .foto-mapa-4 {
+  width: 200px;
+  top: 364px;
+  left: 880px;
+  object-fit: cover;
+  position: absolute;
+  height: 161px;
+}
+
+.criao-de-campanha .foto-mapa-5 {
+  width: 200px;
+  top: 364px;
+  left: 655px;
+  object-fit: cover;
+  position: absolute;
+  height: 161px;
+}
+
+.criao-de-campanha .botao-adicionar-npc-2 {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 662px;
+  left: 490px;
+}
+
+.criao-de-campanha .overlap-7 {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 662px;
+  left: 382px;
+}
+
+.criao-de-campanha .botao-adicionar-npc-3 {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 0;
+  left: 0;
+}
+
+.criao-de-campanha .botao-adicionar-npc-4 {
+  position: absolute;
+  width: 62px;
+  height: 62px;
+  top: 662px;
+  left: 274px;
+}
+
+.criao-de-campanha .foto-npc {
+  top: 656px;
+  left: 159px;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border-radius: 37.5px;
+  transform: rotate(-0.66deg);
+}
+
+.criao-de-campanha .foto-npc-2 {
+  top: 655px;
+  left: 51px;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border-radius: 37.5px;
+  transform: rotate(-0.66deg);
+}
+
+.criao-de-campanha .header-camapanha {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7.5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.criao-de-campanha .rectangle-3 {
+  position: relative;
+  width: 1348px;
+  height: 37.5px;
+  background-color: #130c2c;
+}
+
+.criao-de-campanha .group-4 {
+  position: absolute;
+  width: 1296px;
+  height: 38px;
+  top: 0;
+  left: 0;
+}
+
+.criao-de-campanha .text-wrapper-12 {
+  position: absolute;
+  width: 282px;
+  height: 38px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 25.3px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-campanha .personagens {
+  position: absolute;
+  width: 139px;
+  height: 24px;
+  top: 7px;
+  left: 452px;
+}
+
+.criao-de-campanha .overlap-group-5 {
+  position: relative;
+  width: 137px;
+  height: 24px;
+}
+
+.criao-de-campanha .vector {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.criao-de-campanha .text-wrapper-13 {
+  position: absolute;
+  width: 113px;
+  height: 10px;
+  top: 7px;
+  left: 24px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.criao-de-campanha .campanhas {
+  position: absolute;
+  width: 135px;
+  height: 22px;
+  top: 6px;
+  left: 679px;
+}
+
+.criao-de-campanha .vector-2 {
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  top: 0;
+  left: 0;
+}
+
+.criao-de-campanha .text-wrapper-14 {
+  position: absolute;
+  width: 110px;
+  height: 9px;
+  top: 8px;
+  left: 23px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.criao-de-campanha .perfil {
+  position: absolute;
+  width: 80px;
+  height: 22px;
+  top: 8px;
+  left: 902px;
+}
+
+.criao-de-campanha .text-wrapper-15 {
+  position: absolute;
+  width: 55px;
+  height: 12px;
+  top: 6px;
+  left: 23px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.criao-de-campanha .text-wrapper-16 {
+  position: absolute;
+  width: 141px;
+  height: 10px;
+  top: 14px;
+  left: 1150px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.textarea {
+  border-radius: 15px;
+  margin: 52px 0 0 24px;
+  width: 68%;
+  resize: none;
+}
+
+.input-text-wrapper-1 {
+  color: #ffffff;
+  background:transparent;
+  border-width: 0 0 2px;
+  border-color: #ffffff;
+  width: 475px;
+  height: 25px;
+  font-size: 18px;
+}
+
+.input-text-wrapper-2 {
+  color: #ffffff;
+  background: transparent;
+  border-width: 0 0 2px;
+  border-color: #ffffff;
+  width: 150px;
+  height: 25px;
+  font-size: 18px;
+}
+
+.input-text-wrapper-3 {
+  color: #ffffff;
+  background: transparent;
+  border-width: 0 0 2px;
+  border-color: #ffffff;
+  width: 100px;
+  height: 25px;
+  font-size: 18px;
+}
+
+.input-text-wrapper-4 {
+  color: #ffffff;
+  background: transparent;
+  border-width: 0 0 2px;
+  border-color: #ffffff;
+  width: 50px;
+  height: 25px;
+  font-size: 18px;
+}
+
+.input-text-wrapper-5 {
+  color: #ffffff;
+  background: transparent;
+  border-width: 0 0 2px;
+  border-color: #ffffff;
+  width: 200px;
+  height: 25px;
+  font-size: 18px;
+}

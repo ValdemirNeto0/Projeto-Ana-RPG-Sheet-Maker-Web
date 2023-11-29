@@ -1,0 +1,18 @@
+.home-deslogado{
+    background-color: rgba(255,255,255,1);
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-deslogado .div{
+    background: rgba(255,255,255,1);
+    background: linear-gradient(180deg,rgba(0,0,0,0) 50%, rgba(0,0,0,0.5) 64.58%);
+    background-image: url(/homeDeslogado/images/v1_2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 1440px;
+    height: 810px;
+    position: relative;
+}

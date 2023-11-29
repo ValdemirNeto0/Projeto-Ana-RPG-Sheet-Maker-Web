@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Criador de personagens</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="globalsCriacaoPersonagem.css" />
+		<link rel="stylesheet" href="styleCriacaoPersonagem.css" />
+	</head>
+	<body>
+		<div class="criao-de-personagem">
+			<div class="div">
+				<div class="foto"></div>
+				<!--campo carisma-->
+				<div class="carisma">
+					<div class="overlap-carisma">
+					  <div class="valor-principal-carisma" id="valorCarisma">0</div>
+					  <div class="modificador-carisma" id="modificadorCarisma">0</div>
+					</div>
+				  </div>
+				  <!--campo forca-->
+				  <div class="forca">
+					<div class="overlap-forca">
+					  <div class="text-wrapper-forca" id="valorForca">0</div>
+					  <div class="modificador-forca" id="modificadorForca">0</div>
+					</div>
+				  </div>
+				  <!--campo constituicao-->
+				  <div class="constituicao">
+					<div class="overlap-carisma">
+					  <div class="valor-principal-carisma" id="valorConstituicao">0</div>
+					  <div class="modificador-carisma" id="modificadorConstituicao">0</div>
+					</div>
+				  </div>
+				  <!--campo sabedoria-->
+				  <div class="sabedoria">
+					<div class="overlap-forca">
+					  <div class="valor-principal-carisma" id="valorSabedoria">0</div>
+					  <div class="modificador-forca" id="modificadorSabedoria">0</div>
+					</div>
+				  </div>
+				  <!--campo destreza-->
+				  <div class="destreza">
+					<div class="overlap-forca">
+					  <div class="text-wrapper-forca" id="valorDestreza">0</div>
+					  <div class="modificador-forca" id="modificadorDestreza">0</div>
+					</div>
+				  </div>
+				  <!--campo inteligencia-->
+				  <div class="inteligencia">
+					<div class="overlap-forca">
+					  <div class="text-wrapper-forca" id="valorInteligencia">0</div>
+					  <div class="modificador-forca" id="modificadorInteligencia">0</div>
+					</div>
+				  </div>
+				<div class="botao-outros">
+					<a class="botao-rolar-dados_h" href="#">
+						<div class="botao-finalizar">
+							<div class="overlap-group1">
+								<div class="fundo-finalizar"></div>
+								<div class="fundo-finalizar-2"></div>
+								<div class="text-wrapper">Outros</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="botao-finalizar-wrapper">
+					<!--funcao de rolar dados do botao-->
+					<a class="botao-rolar-dados_h" href="#">
+						<div class="botao-finalizar">
+							<div class="overlap-group2">
+								<div class="fundo-finalizar"></div>
+								<div class="fundo-finalizar-2"></div>
+								<div class="text-wrapper">Finalizar</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="informacoes">
+					<form action="#">
+						<div class="campo-nome">
+							<div class="div-wrapper"><div class="text-wrapper-2"><input class="input-text-wrapper-1" type="text" id="fname" name="fname" placeholder="Nome"></div></div>
+						</div>
+						<div class="campo-alinhamento">
+							<div class="overlap"><div class="text-wrapper-3"><input class="input-text-wrapper-2" type="text" id="fname" name="fname" placeholder="Alinhamento"></div></div>
+						</div>
+						<div class="campo-antecedente">
+							<div class="overlap-2"><div class="text-wrapper-4"><input class="input-text-wrapper-2" type="text" id="fname" name="fname" placeholder="Antecedente"></div></div>
+						</div>
+						<div class="campo-xp">
+							<div class="overlap"><div class="text-wrapper-5"><input class="input-text-wrapper-2" type="text" id="fname" name="fname" placeholder="XP"></div></div>
+						</div>
+						<div class="campo-classe">
+							<div class="overlap-2"><div class="text-wrapper-5"><input class="input-text-wrapper-2" type="text" id="fname" name="fname" placeholder="Classe"></div></div>
+						</div>
+						<div class="campo-raa">
+							<div class="overlap"><div class="text-wrapper-5"><input class="input-text-wrapper-2" type="text" id="fname" name="fname" placeholder="Raça"></div></div>
+						</div>
+					</form>
+				</div>
+				<div class="salvaguardas">
+					<div class="overlap-3">
+						<div class="text-wrapper-6">Salvaguardas</div>
+						<div class="estatiticas">
+							<div class="div-2">
+								<input type="checkbox" id="forca" name="fav_salvaguardas" value="FORCA">
+								<div class="text-wrapper-7" id="valorSalvaguardaForca">0</div>
+								<div class="text-wrapper-8">Força</div>
+							</div>
+							<div class="div-2">
+								<input type="checkbox" id="destreza" name="fav_salvaguardas" value="DESTREZA">
+								<div class="text-wrapper-7" id="valorSalvaguardaDestreza">0</div>
+								<div class="text-wrapper-8">Destreza</div>
+							</div>
+							<div class="div-2">
+								<input type="checkbox" id="const" name="fav_salvaguardas" value="CONST">
+								<div class="text-wrapper-7" id="valorSalvaguardaConstituicao">0</div>
+								<div class="text-wrapper-8">Constituição</div>
+							</div>
+							<div class="div-2">
+								<input type="checkbox" id="inteli" name="fav_salvaguardas" value="INTELI">
+								<div class="text-wrapper-7" id="valorSalvaguardaInteligencia">0</div>
+								<div class="text-wrapper-8">Inteligência</div>
+							</div>
+							<div class="div-2">
+								<input type="checkbox" id="sabedo" name="fav_salvaguardas" value="SABEDO">
+								<div class="text-wrapper-7" id="valorSalvaguardaSabedoria">0</div>
+								<div class="text-wrapper-8">Sabedoria</div>
+							</div>
+							<div class="div-2">
+								<input type="checkbox" id="carisma" name="fav_salvaguardas" value="CARISMA">
+								<div class="text-wrapper-7" id="valorSalvaguardaCarisma">0</div>
+								<div class="text-wrapper-8">Carisma</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="vida-e-mid-section">
+					<div class="outros-atributos">
+						<div class="iniciativa">
+							<div class="text-wrapper-9">Iniciativa</div>
+							<div class="overlap-group-2">
+								<div class="text-wrapper-10">10</div>
+								<img class="icone-iniciativa" src="img/icone-iniciativa.svg" />
+							</div>
+						</div>
+						<div class="armadura">
+							<div class="text-wrapper-11">Armadura</div>
+							<div class="overlap-4">
+								<div class="text-wrapper-12">8</div>
+								<img class="icone-armadura" src="img/icone-armadura.svg" />
+							</div>
+						</div>
+						<div class="deslocamentos">
+							<div class="text-wrapper-13">Deslocamento</div>
+							<div class="overlap-5">
+								<div class="valor-desl">12</div>
+								<img class="icone-deslocamento" src="img/icone-deslocamento.svg" />
+							</div>
+						</div>
+					</div>
+					<div class="vida-total">
+						<div class="overlap-6"><div class="text-wrapper-14">Vida Total</div></div>
+					</div>
+					<div class="dado-de-vida">
+						<div class="dado-wrapper"><div class="dado">D8</div></div>
+					</div>
+					<div class="sucessos-e-falhas">
+						<div class="overlap-7">
+							<div class="sucesso">
+								<img class="img" src="img/divisor-2.svg" />
+								<img class="img-2" src="img/divisor-2.svg" />
+								<input class="d81-sf1" type="checkbox" id="" name="fav_d8" value="">
+								<input class="d81-sf2" type="checkbox" id="" name="fav_d8" value="">
+								<input class="d81-sf3" type="checkbox" id="" name="fav_d8" value="">
+								<div class="text-wrapper-15">Sucesso</div>
+							</div>
+							<div class="falhas">
+								<img class="img" src="img/divisor-baixo-2.svg" />
+								<img class="img-2" src="img/divisor-baixo-2.svg" />
+								<input class="d82-sf1" type="checkbox" id="" name="fav_d8" value="">
+								<input class="d82-sf2" type="checkbox" id="" name="fav_d8" value="">
+								<input class="d82-sf3" type="checkbox" id="" name="fav_d8" value="">
+								<div class="text-wrapper-15">Falhas</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="grupo-pericias">
+					<div class="overlap-8">
+						<div class="text-wrapper-16">Perícias</div>
+						<div class="overlap-9">
+							<div class="acrobacia">
+								<input type="checkbox" id="forca" name="fav_pericias" value="">
+								<div class="text-wrapper-17" id="vAcrobacia">0</div>
+								<div class="text-wrapper-18">Acrobacia</div>
+							</div>
+							<div class="blefar">
+								<input type="checkbox" id="forca" name="fav_pericias" value="">
+								<div class="text-wrapper-19" id="vBlefar">0</div>
+								<div class="text-wrapper-18">Blefar</div>
+							</div>
+						</div>
+						<div class="overlap-group-3">
+							<div class="arcana">
+								<input type="checkbox" id="forca" name="fav_pericias" value="">
+								<div class="text-wrapper-19" id="vArcanismo">0</div>
+								<div class="text-wrapper-20">Arcana</div>
+							</div>
+							<div class="furtividade">
+								<input type="checkbox" id="forca" name="fav_pericias" value="">
+								<div class="text-wrapper-19" id="vFurtividade">0</div>
+								<div class="text-wrapper-18">Furtividade</div>
+							</div>
+						</div>
+						<div class="atletismo">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vAtletismo">0</div>
+							<div class="text-wrapper-21">Atletismo</div>
+						</div>
+						<div class="atuao">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vAtuacao">0</div>
+							<div class="text-wrapper-18">Atuação</div>
+						</div>
+						<div class="intuicao">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vIntuicao">0</div>
+							<div class="text-wrapper-18">Intuição</div>
+						</div>
+						<div class="investigacao">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vInvestigacao">0</div>
+							<div class="text-wrapper-18">Investigação</div>
+						</div>
+						<div class="lidar-animais">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vLidarAnimais">0</div>
+							<div class="text-wrapper-18">Ld.Animais</div>
+						</div>
+						<div class="medicina">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vMedicina">0</div>
+							<div class="text-wrapper-18">Medicina</div>
+						</div>
+						<div class="subrevivencia">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vSobrevivencia">0</div>
+							<div class="text-wrapper-22">Sobrevivência</div>
+						</div>
+						<div class="historia">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vHistoria">0</div>
+							<div class="text-wrapper-23">História</div>
+						</div>
+						<div class="intimidacao">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vIntimidacao">0</div>
+							<div class="text-wrapper-24">Intimidação</div>
+						</div>
+						<div class="religiao">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vReligiao">0</div>
+							<div class="text-wrapper-18">Religião</div>
+						</div>
+						<div class="natureza">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vNatureza">0</div>
+							<div class="text-wrapper-25">Natureza</div>
+						</div>
+						<div class="percepcao">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vPercepcao">0</div>
+							<div class="text-wrapper-18">Percepção</div>
+						</div>
+						<div class="persuasao">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vPersuasao">0</div>
+							<div class="text-wrapper-26">Persuasão</div>
+						</div>
+						<div class="prestidigitacao">
+							<input type="checkbox" id="forca" name="fav_pericias" value="">
+							<div class="text-wrapper-19" id="vPrestidigitacao">0</div>
+							<div class="text-wrapper-27">Prestidig.</div>
+						</div>
+					</div>
+				</div>
+				<div class="equipamento">
+					<form action="">
+						<div class="overlap-10">
+							<textarea class="textarea" id="story" name="story" rows="14.5" cols="40" placeholder="Comment text."></textarea>
+							<div class="moeda"><input class="input-rectangle3" type="text" id="" name=""></div>
+							<div class="moeda-2"><input class="input-rectangle3" type="text" id="" name=""></div>
+							<div class="moeda-3"><input class="input-rectangle3" type="text" id="" name=""></div>
+							<div class="moeda-4"><input class="input-rectangle3" type="text" id="" name=""></div>
+							<div class="moeda-5"><input class="input-rectangle3" type="text" id="" name=""></div>
+							<div class="text-wrapper-28">Equipamento</div>
+							<div class="text-wrapper-29">Moedas</div>
+							<img class="divisor" src="img/divisor.svg" />
+						</div>
+					</form>
+				</div>
+				<div class="ataques-e">
+					<div class="overlap-11">
+						<form action="#">
+							<div class="campo">
+								<div class="rectangle"><input class="input-rectangle" type="text" id="" name=""></div>
+								<div class="rectangle-2"><input class="input-rectangle2" type="text" id="" name=""></div>
+								<div class="rectangle-3"><input class="input-rectangle3" type="text" id="" name=""></div>
+							</div>
+							<div class="campo-2">
+								<div class="rectangle"><input class="input-rectangle" type="text" id="" name=""></div>
+								<div class="rectangle-2"><input class="input-rectangle2" type="text" id="" name=""></div>
+								<div class="rectangle-3"><input class="input-rectangle3" type="text" id="" name=""></div>
+							</div>
+							<div class="campo-3">
+								<div class="rectangle"><input class="input-rectangle" type="text" id="" name=""></div>
+								<div class="rectangle-2"><input class="input-rectangle2" type="text" id="" name=""></div>
+								<div class="rectangle-3"><input class="input-rectangle3" type="text" id="" name=""></div>
+							</div>
+							<div class="campo-4">
+								<div class="rectangle"><input class="input-rectangle" type="text" id="" name=""></div>
+								<div class="rectangle-2"><input class="input-rectangle2" type="text" id="" name=""></div>
+								<div class="rectangle-3"><input class="input-rectangle3" type="text" id="" name=""></div>
+							</div>
+						</form>
+						<div class="text-wrapper-30">Ataques e conjurações</div>
+					</div>
+				</div>
+				<div class="botao-rolar-dados">
+					<a class="botao-rolar-dados_h">
+						<div class="overlap-group-wrapper">
+							<div class="overlap-group-4">
+								<div class="fundo-finalizar-3" onclick="botaoRolarDados()"></div>
+								<div class="fundo-finalizar-4" onclick="botaoRolarDados()"></div>
+								<div class="finalizar" onclick="botaoRolarDados()">Rolar</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="header-criar">
+					<div class="fundo-header"></div>
+					<div class="interativos-header">
+						<a href="#">
+							<div class="text-wrapper-31">RPG SHEET MAKER</div>
+						</a>
+						<div class="personagens">
+							<div class="overlap-group-5">
+								<a href="#">
+									<img class="icone-personagens" src="img/icone-personagens.svg" />
+									<div class="text-wrapper-32">Personagens</div>
+								</a>
+							</div>
+						</div>
+						<div class="campanhas">
+							<a href="#">
+								<img class="img-3" src="img/icone-campanha.svg" />
+								<div class="text-wrapper-33">Campanhas</div>
+							</a>
+						</div>
+						<div class="perfil">
+							<a href="#">
+								<img class="img-3" src="img/icone-perfil.svg" />
+								<div class="text-wrapper-34">Perfil</div>
+							</a>
+						</div>
+						<a href="#">
+							<div class="text-wrapper-35">Trocar Usuário</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="fuctions_character_maker.js"></script>
+	</body>
+</html>

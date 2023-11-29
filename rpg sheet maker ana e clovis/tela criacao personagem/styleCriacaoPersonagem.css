@@ -1,0 +1,1682 @@
+.criao-de-personagem {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.criao-de-personagem .div {
+  background-image: url(./img/fundo_criacao.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 1440px;
+  height: 810px;
+  position: relative;
+}
+
+.criao-de-personagem .foto {
+  position: absolute;
+  width: 93px;
+  height: 93px;
+  top: 55px;
+  left: 119px;
+  background-color: #ffffff;
+  border-radius: 46.5px;
+  border: 2.25px solid;
+  border-color: #130c2c;
+}
+
+.criao-de-personagem .atributos {
+  position: absolute;
+  width: 84px;
+  height: 593px;
+  top: 171px;
+  left: 124px;
+}
+
+.criao-de-personagem .botao-outros {
+  position: absolute;
+  width: 240px;
+  height: 34px;
+  top: 730px;
+  left: 826px;
+}
+
+.criao-de-personagem .botao-finalizar {
+  height: 34px;
+}
+
+.criao-de-personagem .overlap-group1 {
+  position: relative;
+  width: 240px;
+  height: 45px;
+  top: 0px;
+}
+.criao-de-personagem .overlap-group1:hover {
+  top: -1px;
+}
+
+.criao-de-personagem .overlap-group2 {
+  position: relative;
+  width: 240px;
+  height: 45px;
+  top: 0px;
+}
+.criao-de-personagem .overlap-group2:hover {
+  top: -1px;
+}
+
+.criao-de-personagem .fundo-finalizar {
+  position: absolute;
+  width: 240px;
+  height: 44px;
+  top: 1px;
+  left: 0;
+  background-color: #a8a8a8;
+  border-radius: 18.75px;
+}
+
+.criao-de-personagem .fundo-finalizar-2 {
+  width: 240px;
+  height: 34px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  border-radius: 18.75px;
+}
+
+.criao-de-personagem .text-wrapper {
+  position: absolute;
+  width: 135px;
+  height: 33px;
+  top: 0;
+  left: 53px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .botao-finalizar-wrapper {
+  position: absolute;
+  width: 240px;
+  height: 34px;
+  top: 730px;
+  left: 1080px;
+}
+
+.criao-de-personagem .informacoes {
+  position: absolute;
+  width: 1074px;
+  height: 83px;
+  top: 59px;
+  left: 246px;
+}
+
+.criao-de-personagem .campo-nome {
+  position: absolute;
+  width: 802px;
+  height: 34px;
+  top: 1px;
+  left: 0;
+}
+
+.criao-de-personagem .div-wrapper {
+  position: relative;
+  width: 800px;
+  height: 34px;
+  background-color: #130c2cd9;
+  border-radius: 18.75px;
+  border: 2.25px solid;
+  border-color: #ffffff;
+}
+
+.criao-de-personagem .text-wrapper-2 {
+  position: absolute;
+  height: 27px;
+  top: 1px;
+  left: 23px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .campo-alinhamento {
+  position: absolute;
+  width: 256px;
+  height: 34px;
+  top: 48px;
+  left: 0;
+}
+
+.criao-de-personagem .overlap {
+  position: relative;
+  width: 254px;
+  height: 34px;
+  background-color: #130c2cd9;
+  border-radius: 18.75px;
+  border: 2.25px solid;
+  border-color: #ffffff;
+}
+
+.criao-de-personagem .text-wrapper-3 {
+  position: absolute;
+  height: 27px;
+  top: 2px;
+  left: 23px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .campo-antecedente {
+  position: absolute;
+  width: 255px;
+  height: 34px;
+  top: 48px;
+  left: 274px;
+}
+
+.criao-de-personagem .overlap-2 {
+  position: relative;
+  width: 253px;
+  height: 34px;
+  background-color: #130c2cd9;
+  border-radius: 18.75px;
+  border: 2.25px solid;
+  border-color: #ffffff;
+}
+
+.criao-de-personagem .text-wrapper-4 {
+  position: absolute;
+  height: 27px;
+  top: 1px;
+  left: 14px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .campo-xp {
+  position: absolute;
+  width: 256px;
+  height: 34px;
+  top: 48px;
+  left: 547px;
+}
+
+.criao-de-personagem .text-wrapper-5 {
+  position: absolute;
+  height: 27px;
+  top: 2px;
+  left: 17px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .campo-classe {
+  position: absolute;
+  width: 255px;
+  height: 34px;
+  top: 0;
+  left: 821px;
+}
+
+.criao-de-personagem .campo-raa {
+  position: absolute;
+  width: 256px;
+  height: 34px;
+  top: 49px;
+  left: 820px;
+}
+
+.criao-de-personagem .salvaguardas {
+  position: absolute;
+  width: 197px;
+  height: 195px;
+  top: 171px;
+  left: 246px;
+}
+
+.criao-de-personagem .overlap-3 {
+  position: relative;
+  width: 206px;
+  height: 206px;
+  background-color: #130c2cd9;
+  border-radius: 18.75px;
+  border: 2.25px solid;
+  border-color: #ffffff;
+}
+
+.criao-de-personagem .text-wrapper-6 {
+  position: absolute;
+  height: 27px;
+  top: 1px;
+  left: 34px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .estatiticas {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 31px;
+  left: 12px;
+}
+
+.criao-de-personagem .div-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8.25px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.criao-de-personagem .marcador {
+  position: relative;
+  width: 11.25px;
+  height: 11.25px;
+  background-color: #ffffff;
+  border-radius: 5.62px;
+  border: 0.75px solid;
+}
+
+.criao-de-personagem .text-wrapper-7 {
+  position: relative;
+  width: 27px;
+  margin-top: -0.75px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.criao-de-personagem .text-wrapper-8 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.75px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .vida-e-mid-section {
+  position: absolute;
+  width: 332px;
+  height: 195px;
+  top: 171px;
+  left: 480px;
+}
+
+.criao-de-personagem .outros-atributos {
+  position: absolute;
+  width: 332px;
+  height: 116px;
+  top: 79px;
+  left: 0;
+  background-color: #130c2cd9;
+  border-radius: 18.75px;
+  border: 2.25px solid;
+  border-color: #ffffff;
+}
+
+.criao-de-personagem .iniciativa {
+  position: absolute;
+  width: 67px;
+  height: 83px;
+  top: 11px;
+  left: 246px;
+}
+
+.criao-de-personagem .text-wrapper-9 {
+  position: absolute;
+  height: 18px;
+  top: 65px;
+  left: 4px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .overlap-group-2 {
+  position: absolute;
+  width: 63px;
+  height: 62px;
+  top: 0;
+  left: 0;
+}
+
+.criao-de-personagem .text-wrapper-10 {
+  position: absolute;
+  height: 27px;
+  top: 0;
+  left: 23px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .icone-iniciativa {
+  width: 63px;
+  height: 61px;
+  top: 1px;
+  position: absolute;
+  left: 0;
+}
+
+.criao-de-personagem .armadura {
+  position: absolute;
+  width: 66px;
+  height: 82px;
+  top: 13px;
+  left: 11px;
+}
+
+.criao-de-personagem .text-wrapper-11 {
+  position: absolute;
+  height: 18px;
+  top: 64px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .overlap-4 {
+  position: absolute;
+  width: 46px;
+  height: 58px;
+  top: 0;
+  left: 8px;
+}
+
+.criao-de-personagem .text-wrapper-12 {
+  position: absolute;
+  height: 27px;
+  top: 16px;
+  left: 17px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .icone-armadura {
+  width: 46px;
+  height: 58px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.criao-de-personagem .deslocamentos {
+  position: absolute;
+  width: 92px;
+  height: 81px;
+  top: 14px;
+  left: 117px;
+}
+
+.criao-de-personagem .text-wrapper-13 {
+  position: absolute;
+  height: 18px;
+  top: 63px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .overlap-5 {
+  position: absolute;
+  width: 50px;
+  height: 57px;
+  top: 0;
+  left: 22px;
+}
+
+.criao-de-personagem .valor-desl {
+  position: absolute;
+  height: 27px;
+  top: 15px;
+  left: 12px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .icone-deslocamento {
+  width: 50px;
+  height: 57px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.criao-de-personagem .vida-total {
+  position: absolute;
+  width: 334px;
+  height: 34px;
+  top: 0;
+  left: 0;
+}
+
+.criao-de-personagem .overlap-6 {
+  position: relative;
+  width: 332px;
+  height: 34px;
+  background-color: #130c2cd9;
+  border-radius: 18.75px;
+  border: 2.25px solid;
+  border-color: #ffffff;
+}
+
+.criao-de-personagem .text-wrapper-14 {
+  position: absolute;
+  width: 188px;
+  height: 33px;
+  top: -2px;
+  left: 71px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .dado-de-vida {
+  position: absolute;
+  width: 61px;
+  height: 34px;
+  top: 40px;
+  left: 0;
+}
+
+.criao-de-personagem .dado-wrapper {
+  position: relative;
+  width: 59px;
+  height: 34px;
+  background-color: #130c2cd9;
+  border-radius: 18.75px;
+  border: 2.25px solid;
+  border-color: #ffffff;
+}
+
+.criao-de-personagem .dado {
+  position: absolute;
+  width: 59px;
+  height: 33px;
+  top: -1px;
+  left: -2px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .sucessos-e-falhas {
+  position: absolute;
+  width: 266px;
+  height: 34px;
+  top: 42px;
+  left: 67px;
+  background-color: #130c2cd9;
+  border-radius: 18.75px;
+  border: 2.25px solid;
+  border-color: #ffffff;
+}
+
+.criao-de-personagem .overlap-7 {
+  position: relative;
+  width: 180px;
+  height: 28px;
+  top: 3px;
+  left: 45px;
+}
+
+.criao-de-personagem .sucesso {
+  position: absolute;
+  width: 180px;
+  height: 14px;
+  top: 0;
+  left: 0;
+}
+
+.criao-de-personagem .img {
+  position: absolute;
+  width: 26px;
+  height: 1px;
+  top: 7px;
+  left: 67px;
+}
+
+.criao-de-personagem .img-2 {
+  position: absolute;
+  width: 26px;
+  height: 1px;
+  top: 7px;
+  left: 18px;
+}
+
+.criao-de-personagem .bola {
+  left: 98px;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 2px;
+  background-color: #ffffff;
+  border-radius: 5.62px;
+  border: 0.75px solid;
+}
+
+.criao-de-personagem .bola-2 {
+  left: 52px;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 2px;
+  background-color: #ffffff;
+  border-radius: 5.62px;
+  border: 0.75px solid;
+}
+
+.criao-de-personagem .bola-3 {
+  left: 0;
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 2px;
+  background-color: #ffffff;
+  border-radius: 5.62px;
+  border: 0.75px solid;
+}
+
+.criao-de-personagem .text-wrapper-15 {
+  position: absolute;
+  width: 59px;
+  height: 14px;
+  top: 0;
+  left: 118px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.criao-de-personagem .falhas {
+  position: absolute;
+  width: 180px;
+  height: 14px;
+  top: 14px;
+  left: 0;
+}
+
+.criao-de-personagem .grupo-pericias {
+  position: absolute;
+  width: 568px;
+  height: 357px;
+  top: 407px;
+  left: 246px;
+}
+
+.criao-de-personagem .overlap-8 {
+  position: relative;
+  width: 566px;
+  height: 357px;
+  background-image: url(./img/fundo-pericias.svg);
+  background-size: 100% 100%;
+}
+
+.criao-de-personagem .text-wrapper-16 {
+  position: absolute;
+  height: 27px;
+  top: 25px;
+  left: 248px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .overlap-9 {
+  position: absolute;
+  width: 220px;
+  height: 28px;
+  top: 86px;
+  left: 20px;
+}
+
+.criao-de-personagem .acrobacia {
+  display: flex;
+  width: 130px;
+  height: 25px;
+  align-items: center;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+.criao-de-personagem .marcador-2 {
+  position: relative;
+  width: 12.71px;
+  height: 12.71px;
+  background-color: #ffffff;
+  border-radius: 6.35px;
+  border: 0.85px solid;
+}
+
+.criao-de-personagem .text-wrapper-17 {
+  position: relative;
+  width: 30.49px;
+  margin-top: -1.97px;
+  margin-bottom: -0.28px;
+  margin-left: -1.5px;
+  text-decoration: underline;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .text-wrapper-18 {
+  position: relative;
+  width: fit-content;
+  margin-left: -1.5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .blefar {
+  display: flex;
+  width: 96px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 124px;
+}
+
+.criao-de-personagem .text-wrapper-19 {
+  position: relative;
+  width: 30.49px;
+  margin-top: -0.1px;
+  margin-left: -1.5px;
+  text-decoration: underline;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .overlap-group-3 {
+  position: absolute;
+  width: 250px;
+  height: 28px;
+  top: 139px;
+  left: 20px;
+}
+
+.criao-de-personagem .arcana {
+  display: flex;
+  width: 130px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.criao-de-personagem .text-wrapper-20 {
+  position: relative;
+  width: 78px;
+  margin-left: -1.5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .furtividade {
+  display: flex;
+  width: 126px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 124px;
+}
+
+.criao-de-personagem .atletismo {
+  display: flex;
+  width: 115px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 191px;
+  left: 20px;
+}
+
+.criao-de-personagem .text-wrapper-21 {
+  position: relative;
+  width: 75px;
+  margin-right: -0.45px;
+  margin-left: -1.5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .atuao {
+  display: flex;
+  width: 106px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 244px;
+  left: 20px;
+}
+
+.criao-de-personagem .intuicao {
+  display: flex;
+  width: 101px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 86px;
+  left: 286px;
+}
+
+.criao-de-personagem .investigacao {
+  display: flex;
+  width: 142px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 139px;
+  left: 286px;
+}
+
+.criao-de-personagem .lidar-animais {
+  display: flex;
+  width: 125px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 191px;
+  left: 286px;
+}
+
+.criao-de-personagem .medicina {
+  display: flex;
+  width: 110px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 244px;
+  left: 286px;
+}
+
+.criao-de-personagem .subrevivencia {
+  display: flex;
+  width: 110px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 295px;
+  left: 286px;
+}
+
+.criao-de-personagem .text-wrapper-22 {
+  position: relative;
+  width: fit-content;
+  margin-right: -36.7px;
+  margin-left: -1.5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .historia {
+  display: flex;
+  width: 96px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 191px;
+  left: 145px;
+}
+
+.criao-de-personagem .text-wrapper-23 {
+  position: relative;
+  width: fit-content;
+  margin-right: -1.2px;
+  margin-left: -1.5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .intimidacao {
+  display: flex;
+  width: 130px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 244px;
+  left: 145px;
+}
+
+.criao-de-personagem .text-wrapper-24 {
+  position: relative;
+  width: fit-content;
+  margin-right: -0.7px;
+  margin-left: -1.5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .religiao {
+  display: flex;
+  width: 130px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 295px;
+  left: 145px;
+}
+
+.criao-de-personagem .natureza {
+  display: flex;
+  width: 108px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 86px;
+  left: 432px;
+}
+
+.criao-de-personagem .text-wrapper-25 {
+  position: relative;
+  width: fit-content;
+  margin-right: -0.2px;
+  margin-left: -1.5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .percepcao {
+  display: flex;
+  width: 122px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 139px;
+  left: 432px;
+}
+
+.criao-de-personagem .persuasao {
+  display: flex;
+  width: 118px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 191px;
+  left: 432px;
+}
+
+.criao-de-personagem .text-wrapper-26 {
+  position: relative;
+  width: fit-content;
+  margin-right: -1.45px;
+  margin-left: -1.5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .prestidigitacao {
+  display: flex;
+  width: 97px;
+  height: 28px;
+  align-items: center;
+  position: absolute;
+  top: 244px;
+  left: 432px;
+}
+
+.criao-de-personagem .text-wrapper-27 {
+  position: relative;
+  width: fit-content;
+  margin-right: -11.45px;
+  margin-left: -1.5px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .equipamento {
+  position: absolute;
+  width: 498px;
+  height: 295px;
+  top: 407px;
+  left: 826px;
+}
+
+.criao-de-personagem .overlap-10 {
+  position: relative;
+  width: 494px;
+  height: 295px;
+  background-image: url(./img/fundo-equipamentos.svg);
+  background-size: 100% 100%;
+}
+
+.criao-de-personagem .moeda {
+  top: 230px;
+  position: absolute;
+  width: 56px;
+  height: 26px;
+  left: 409px;
+  background-color: #ffffff;
+  border-radius: 18.75px;
+}
+
+.criao-de-personagem .moeda-2 {
+  top: 182px;
+  position: absolute;
+  width: 56px;
+  height: 26px;
+  left: 409px;
+  background-color: #ffffff;
+  border-radius: 18.75px;
+}
+
+.criao-de-personagem .moeda-3 {
+  top: 135px;
+  position: absolute;
+  width: 56px;
+  height: 26px;
+  left: 409px;
+  background-color: #ffffff;
+  border-radius: 18.75px;
+}
+
+.criao-de-personagem .moeda-4 {
+  top: 88px;
+  position: absolute;
+  width: 56px;
+  height: 26px;
+  left: 409px;
+  background-color: #ffffff;
+  border-radius: 18.75px;
+}
+
+.criao-de-personagem .moeda-5 {
+  top: 40px;
+  position: absolute;
+  width: 56px;
+  height: 26px;
+  left: 409px;
+  background-color: #ffffff;
+  border-radius: 18.75px;
+}
+
+.criao-de-personagem .text-wrapper-28 {
+  position: absolute;
+  height: 27px;
+  top: 14px;
+  left: 22px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .text-wrapper-29 {
+  position: absolute;
+  height: 27px;
+  top: 14px;
+  left: 400px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .divisor {
+  position: absolute;
+  width: 4px;
+  height: 214px;
+  top: 40px;
+  left: 382px;
+}
+
+.criao-de-personagem .ataques-e {
+  position: absolute;
+  width: 496px;
+  height: 235px;
+  top: 162px;
+  left: 826px;
+}
+
+.criao-de-personagem .overlap-11 {
+  position: relative;
+  width: 494px;
+  height: 235px;
+  background-image: url(./img/fundo-ataques-e-conjuracoes.svg);
+  background-size: 100% 100%;
+}
+
+.criao-de-personagem .campo {
+  position: absolute;
+  width: 450px;
+  height: 26px;
+  top: 184px;
+  left: 22px;
+}
+
+.criao-de-personagem .rectangle {
+  width: 157px;
+  top: 1px;
+  left: 0;
+  border-radius: 18.75px;
+  position: absolute;
+  height: 25px;
+  background-color: #ffffff;
+}
+
+.criao-de-personagem .rectangle-2 {
+  width: 222px;
+  top: 1px;
+  left: 228px;
+  border-radius: 18.75px;
+  position: absolute;
+  height: 25px;
+  background-color: #ffffff;
+}
+
+.criao-de-personagem .rectangle-3 {
+  width: 49px;
+  top: 0;
+  left: 168px;
+  position: absolute;
+  height: 25px;
+  background-color: #ffffff;
+}
+
+.criao-de-personagem .campo-2 {
+  position: absolute;
+  width: 450px;
+  height: 26px;
+  top: 141px;
+  left: 22px;
+}
+
+.criao-de-personagem .campo-3 {
+  position: absolute;
+  width: 450px;
+  height: 26px;
+  top: 98px;
+  left: 22px;
+}
+
+.criao-de-personagem .campo-4 {
+  position: absolute;
+  width: 450px;
+  height: 26px;
+  top: 54px;
+  left: 22px;
+}
+
+.criao-de-personagem .text-wrapper-30 {
+  position: absolute;
+  height: 27px;
+  top: 9px;
+  left: 143px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .botao-rolar-dados {
+  position: absolute;
+  width: 84px;
+  height: 17px;
+  top: 781px;
+  left: 124px;
+}
+
+.criao-de-personagem .overlap-group-wrapper {
+  height: 17px;
+}
+
+.criao-de-personagem .overlap-group-4 {
+  position: relative;
+  width: 84px;
+  height: 22px;
+  top: 0px;
+}
+.criao-de-personagem .overlap-group-4:hover {
+  top: -1px;
+}
+
+.criao-de-personagem .fundo-finalizar-3 {
+  width: 84px;
+  height: 22px;
+  background-color: #a8a8a8;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  border-radius: 18.75px;
+}
+
+.criao-de-personagem .fundo-finalizar-4 {
+  width: 84px;
+  height: 17px;
+  background-color: #ffffff;
+  position: absolute;
+  top: 1px;
+  left: 0;
+  border-radius: 18.75px;
+}
+
+.criao-de-personagem .finalizar {
+  position: absolute;
+  width: 47px;
+  height: 16px;
+  top: 0;
+  left: 18px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .header-criar {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7.5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.criao-de-personagem .fundo-header {
+  position: relative;
+  width: 1348px;
+  height: 37.5px;
+  background-color: #130c2c;
+}
+
+.criao-de-personagem .interativos-header {
+  position: absolute;
+  width: 1296px;
+  height: 38px;
+  top: 0;
+  left: 0;
+}
+
+.criao-de-personagem .text-wrapper-31 {
+  position: absolute;
+  width: 282px;
+  height: 38px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 25.3px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.criao-de-personagem .personagens {
+  position: absolute;
+  width: 139px;
+  height: 24px;
+  top: 7px;
+  left: 452px;
+}
+
+.criao-de-personagem .overlap-group-5 {
+  position: relative;
+  width: 137px;
+  height: 24px;
+}
+
+.criao-de-personagem .icone-personagens {
+  width: 24px;
+  height: 24px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.criao-de-personagem .text-wrapper-32 {
+  position: absolute;
+  width: 113px;
+  height: 10px;
+  top: 7px;
+  left: 24px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.criao-de-personagem .campanhas {
+  position: absolute;
+  width: 135px;
+  height: 22px;
+  top: 6px;
+  left: 679px;
+}
+
+.criao-de-personagem .img-3 {
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  top: 0;
+  left: 0;
+}
+
+.criao-de-personagem .text-wrapper-33 {
+  position: absolute;
+  width: 110px;
+  height: 9px;
+  top: 8px;
+  left: 23px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.criao-de-personagem .perfil {
+  position: absolute;
+  width: 80px;
+  height: 22px;
+  top: 8px;
+  left: 902px;
+}
+
+.criao-de-personagem .text-wrapper-34 {
+  position: absolute;
+  width: 55px;
+  height: 12px;
+  top: 6px;
+  left: 23px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.criao-de-personagem .text-wrapper-35 {
+  position: absolute;
+  width: 141px;
+  height: 10px;
+  top: 14px;
+  left: 1150px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 12.7px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.d81-sf1 {
+  width: 10px;
+  margin-left: 8px;
+}
+.d81-sf2 {
+  width: 10px;
+  margin-left: 27px;
+}
+.d81-sf3 {
+  width: 10px;
+  margin-left: 24px;
+}
+
+.d82-sf1 {
+  width: 10px;
+  margin-left: 4px;
+}
+.d82-sf2 {
+  width: 10px;
+  margin-left: 31px;
+}
+.d82-sf3 {
+  width: 10px;
+  margin-left: 28px;
+}
+
+.textarea {
+  border-radius: 15px;
+  margin: 52px 0 0 24px;
+  width: 68%;
+  resize: none;
+}
+
+.input-text-wrapper-1 {
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  width: 759px;
+  font-size: 18px;
+  height: 27px;
+}
+
+.input-text-wrapper-2 {
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  width: 210px;
+  font-size: 18px;
+  height: 27px;
+}
+
+.input-rectangle {
+  background: transparent;
+  border: none;
+  width: 140px;
+  font-size: 15px;
+  height: 25px;
+  margin-left: 8px;
+}
+.input-rectangle2 {
+  background: transparent;
+  border: none;
+  width: 205px;
+  font-size: 15px;
+  height: 25px;
+  margin-left: 8px;
+}
+.input-rectangle3 {
+  background: transparent;
+  border: none;
+  width: 34px;
+  font-size: 15px;
+  height: 25px;
+  margin-left: 8px;
+}
+/*campo forca*/
+.criao-de-personagem .forca {
+  position: absolute;
+  width: 88px;
+  height: 85px;
+  top: 171px;
+  left: 124px;
+}
+.criao-de-personagem .overlap-forca {
+  position: relative;
+  width: 73px;
+  height: 85px;
+  left: 6px;
+  background-image: url(./img/fundo-forca.svg);
+  background-size: 100% 100%;
+}
+.criao-de-personagem .text-wrapper-forca {
+  position: absolute;
+  width: 34px;
+  height: 32px;
+  top: 15px;
+  left: 19px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+.criao-de-personagem .modificador-forca {
+  top: 58px;
+  position: absolute;
+  height: 18px;
+  left: 28px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/*campo carisma*/
+.criao-de-personagem .carisma {
+  position: absolute;
+  width: 88px;
+  height: 85px;
+  top: 679px;
+  left: 124px;
+}
+.criao-de-personagem .overlap-carisma {
+  position: relative;
+  width: 73px;
+  height: 85px;
+  left: 6px;
+  background-image: url(./img/fundo-forca.svg);
+  background-size: 100% 100%;
+}
+.criao-de-personagem .valor-principal-carisma {
+  width: 34px;
+  height: 32px;
+  top: 15px;
+  left: 19px;
+  font-size: 36px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.criao-de-personagem .modificador-carisma {
+  position: absolute;
+  height: 18px;
+  top: 56px;
+  left: 28px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/*campo constituicao*/
+.criao-de-personagem .constituicao {
+  position: absolute;
+  width: 88px;
+  height: 84px;
+  top: 375px;
+  left: 124px;
+}
+.criao-de-personagem .overlap-constituicao {
+  position: relative;
+  width: 73px;
+  height: 84px;
+  left: 6px;
+  background-image: url(./img/fundo-forca.svg);
+  background-size: 100% 100%;
+}
+.criao-de-personagem .valor-principal-constituicao {
+  width: 34px;
+  height: 32px;
+  top: 25px;
+  left: 19px;
+  font-size: 36px;
+  text-align: center;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+}
+.criao-de-personagem .modificador-constituicao {
+  position: absolute;
+  height: 18px;
+  top: 56px;
+  left: 28px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+/*campo sabedoria*/
+.criao-de-personagem .sabedoria {
+  position: absolute;
+  width: 88px;
+  height: 84px;
+  top: 578px;
+  left: 124px;
+}
+/*campo inteligencia*/
+.criao-de-personagem .inteligencia {
+  position: absolute;
+  width: 88px;
+  height: 85px;
+  top: 475px;
+  left: 124px;
+}
+/*campo destreza*/
+.criao-de-personagem .destreza {
+  position: absolute;
+  width: 88px;
+  height: 85px;
+  top: 273px;
+  left: 124px;
+}
